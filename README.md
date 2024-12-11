@@ -27,13 +27,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./screenshot.jpg)
+![Preview of the Product Card in Desktop View](./screenshot.jpg)
+![Preview of the Product Card in Mobile View](./screenshot1.jpg)
 
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/nishanth1596/responsive-product-preview-card)
-- Live Site URL: [Live site link](https://your-live-site-url.com)
+- Live Site URL: [Live site link](https://nishanth1596-preview-card.netlify.app/)
 
 ## My process
 
