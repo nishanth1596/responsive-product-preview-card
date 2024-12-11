@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  background-color: #f2eae2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 45rem;
+  width: 60rem;
+  background-color: #fff;
+  letter-spacing: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1rem;
+  overflow: hidden;
+  font-family: "Montserrat";
+  line-height: auto;
+}
+
+figure {
+  width: 30rem;
+}
+
+.img {
+  width: 300px;
+  height: 450px;
+  background-size: cover;
+  background-image: url("./images/image-product-desktop.jpg");
+}
+
+p {
+  font-weight: 500;
+  color: #6c7289;
+}
+
+.perfume {
+  letter-spacing: 5px;
+  font-size: 12px;
+  padding: 3.2rem 17.65rem 0 3.15rem;
+}
+
+h1 {
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  padding: 2rem 3.2rem 0 3.2rem;
+}
+
+.para-secondary {
+  padding: 2.4rem 3.15rem 0 3.15rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  text-align: left;
+}
+
+.cart {
+  padding-top: 2.9rem;
+  padding-left: 3.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.9rem;
+}
+
+.cart-primary {
+  font-family: "Fraunces";
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  color: #3d8168;
+}
+
+.cart-secondary {
+  color: #6c7289;
+  font-weight: 500;
+  font-size: 1.2rem;
+  /* letter-spacing: 5px; */
+  text-decoration: line-through;
+  text-decoration-color: #6c7289;
+}
+
+button {
+  margin: 3rem 3.2rem 3.2rem 3.2rem;
+  height: 4.8rem;
+  width: 23.6rem;
+  background-color: #3d8168;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.161rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.btn-icon {
+  width: 1.439rem;
+  height: 1.6rem;
+}
+
+.btn-text {
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+button:hover,
+button:active {
+  background-color: #1a4032;
+  cursor: pointer;
+}
+
+/* 
+white -#fff
+Cream -#f2eae2
+Aurometal Saurus - #6c7289
+Deep Aquamarine - #3d8168
+Deep Aquamarine(Hover) - #1a4032
+Gunmetal - #1c232B
+
+display 32/32 - 
+fraunces -    ;
+-  bold 32px 
+lineheight 32
+letter spacing 0px
+
+body montserrat medium 14px
+linheigt 23
+letter spacing opx
+
+button text 14/auro - monteserrat bold 14px
+line height auto
+letter spacing 0px
+
+Overline monteserrat medium 12px
+lineheit auto 
+letter spacing 5px
+
+
+- Weights: 500, 700
+- Weights: 700
+
+*/

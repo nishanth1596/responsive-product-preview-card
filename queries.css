@@ -1,0 +1,40 @@
+@media (max-width: 375px) {
+  .container {
+    height: 61.1rem;
+    width: 34.3rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 240px 371px;
+  }
+
+  .img {
+    width: 343px;
+    height: 240px;
+    background-image: url("./images/image-product-mobile.jpg");
+    background-size: cover;
+  }
+
+  .perfume {
+    letter-spacing: 5px;
+    font-size: 12px;
+    padding: 2.4rem 22.7rem 0 2.4rem;
+  }
+
+  h1 {
+    padding: 1.2rem 2.4rem 0 2.4rem;
+  }
+
+  .para-secondary {
+    padding: 1.6rem 2.4rem 0 2.4rem;
+  }
+
+  .cart {
+    padding-top: 2.4rem;
+    padding-left: 2.4rem;
+  }
+
+  button {
+    margin: 2rem 2.3rem 2.4rem 2.5rem;
+    height: 4.8rem;
+    width: 29.5rem;
+  }
+}
