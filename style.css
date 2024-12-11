@@ -10,6 +10,7 @@ html {
 
 body {
   height: 100vh;
+  width: 1440px;
   background-color: #f2eae2;
   display: flex;
   align-items: center;
