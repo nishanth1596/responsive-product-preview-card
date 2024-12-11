@@ -49,6 +49,7 @@ p {
   letter-spacing: 5px;
   font-size: 12px;
   padding: 3.2rem 17.65rem 0 3.15rem;
+    text-transform: uppercase;
 }
 
 h1 {
